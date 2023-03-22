@@ -1,0 +1,33 @@
+nav {
+  background-color: plum;
+  height: 50px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100%;
+  color: #ffffff;
+}
+
+li {
+  margin: 0 10px;
+  justify-content: start;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 7px;
+  transition: background-color 0.9s ease;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #c3c2c2;
+}
